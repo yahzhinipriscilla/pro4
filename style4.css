@@ -1,0 +1,28 @@
+/* EXTERNAL CSS */
+.ef-features{
+  text-align:center;
+  margin:10px 0 30px;
+}
+
+.ef-feature{
+  display:inline-block;               /* inline-block */
+  vertical-align:top;
+  width:210px;
+  margin:10px;
+  padding:16px;
+  background-color:#ffffff;           /* background color */
+  color:#1b5e20;                      /* text color */
+  border-radius:14px;                 /* border radius */
+  font-family:Arial,sans-serif;
+  box-shadow:0 4px 10px rgba(0,0,0,.2);
+  transition:transform .2s;
+}
+
+.ef-feature:hover{
+  transform:translateY(-6px);
+}
+
+/* Different border types and colors */
+.ef-f1{ border:3px solid  #1b5e20; }
+.ef-f2{ border:3px dashed #2e7d32; }
+.ef-f3{ border:5px double #388e3c; }
